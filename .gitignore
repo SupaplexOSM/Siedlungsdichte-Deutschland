@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Lokale Roh- und Zwischendaten (nicht Teil des veröffentlichten Repos)
+/data/
+/BaWü/
+**/*.osm.pbf
+**/*.gpkg
+**/*.qgz
+**/*.qgs
+
+# Optional erzeugte Vorschauen
+web/*-preview.png
+web/dist/
